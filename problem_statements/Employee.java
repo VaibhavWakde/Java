@@ -12,6 +12,8 @@ package java_task.problem_statements;
  *       having max total salary(salary+bonus)
  */
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 public class Employee {
@@ -19,6 +21,7 @@ public class Employee {
     private String name;
     private String department;
     private double salary;
+
 
     public double getSalary() {
         return salary;
@@ -95,6 +98,7 @@ class EmployeeImpl{
         Manager manager= new Manager();
         manager.accept();
         manager.display();
+
 
     }
 }
